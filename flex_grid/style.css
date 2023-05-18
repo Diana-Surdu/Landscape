@@ -1,0 +1,32 @@
+.sec-header {
+   background-image: url(img/photo-1573496267526-08a69e46a409.avif);
+   background-size: cover;
+   width: 1440px;
+   height: 680px;
+   position: relative;
+}
+.main-header {
+   position: absolute;
+   width: 1440px;
+   margin-left: 192px;
+   margin-top: 36px;
+   margin-right: 45px;
+  
+   color: hsl(164, 87%, 25%);
+
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+}
+
+
+.main-nav ul {
+   list-style: none;
+   display: flex;
+   gap: 20px;
+}
+
+.main-nav-link {
+   text-decoration: none;
+   color: hsl(164, 100%, 22%);
+}
